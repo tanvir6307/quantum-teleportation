@@ -1,0 +1,7 @@
+phase_number,phase_name,start_time_ns,end_time_ns,duration_ns,active_qubits,idle_qubits,noise_sources
+1,Bell pair preparation,0,350,350,"[1, 2]",[0],"['gate_errors', 'T1/T2', 'leakage']"
+2,"Alice CNOT(q0,q1)",350,650,300,"[0, 1]",[2],"['gate_errors', 'T1/T2', 'crosstalk', 'leakage']"
+3,Alice H(q0),650,700,50,[0],"[1, 2]","['gate_errors', 'T1/T2']"
+4,Bell measurement,700,2700,2000,"[0, 1]",[2],"['readout_errors', 'T1/T2_idle']"
+5,Classical communication,2700,3200,500,[],[2],['T1/T2_idle']
+6,Bob's corrections,3200,3300,100,[2],[],"['gate_errors', 'T1/T2']"

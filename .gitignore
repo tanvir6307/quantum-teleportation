@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Manuscript (not part of the public repo)
+manuscript.tex
+references.bib
+papers.csv
+
+# Research plan
+Q1_Research_Plan_Quantum_Teleportation.md
+
+# Temporary/output files
+sim_output.txt
+final_check_output.txt
+full_output.txt
+
+# One-off scripts (not part of the simulation framework)
+regenerate_fig1.py
+regenerate_fig4.py
+regenerate_fig5.py
+audit_validation.py
+generate_comparison.py
+investigate_plusi.py
+recompare_torino.py
+
+# Output folder
+quantum_teleportation_simulation/output/
+
+# OS files
+Thumbs.db
+.DS_Store

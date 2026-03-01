@@ -1,0 +1,12 @@
+error_source,contribution_percent,contribution_absolute,phase,notes
+T1_decay,3.0939827434539047,0.030939827434539047,all,"T1=105 us, protocol=3300 ns"
+T2_dephasing,2.804743374541596,0.02804743374541596,all,T2=116 us
+CNOT_gate_errors,1.91,0.0191,bell_prep + alice_cnot,2 CNOT gates total
+single_qubit_errors,0.11399999999999999,0.00114,H_gate + X_correction + Z_correction,3 single-qubit gates
+readout_errors,5.18,0.0518,measurement,2 qubits measured
+state_preparation,2.0,0.02,initialization,Thermal pop = 0.02
+leakage,1.15,0.0115,all gates,2 CNOTs + 3 single-qubit gates
+crosstalk,2.2321699935695536,0.022321699935695535,CNOT gates,"ZZ coupling: q0 during CNOT(1, 2): θ=0.2356, infid=0.01382; q2 during CNOT(0, 1): θ=0.1847, infid=0.00851"
+one_over_f_noise,0.008527755660037162,8.527755660037162e-05,all,alpha=0.9
+coherent_errors,0.00030000000000000003,3e-06,all gates,epsilon=0.001
+TOTAL_infidelity_estimate,18.49372386722509,0.1849372386722509,all,First-order sum (overestimates due to correlations)

@@ -1,0 +1,7 @@
+noise_scale,fidelity,type
+1.0,0.9356146798205768,measured
+1.5,0.8993538728032643,measured
+2.0,0.8616577583427709,measured
+2.5,0.8234446506236335,measured
+3.0,0.7855654506349325,measured
+0.0,1.0,extrapolated

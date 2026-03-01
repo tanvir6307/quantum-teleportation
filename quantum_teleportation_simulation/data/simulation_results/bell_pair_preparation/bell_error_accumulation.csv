@@ -1,0 +1,4 @@
+step,time_ns,fidelity,gate
+initial,0,1.0,none
+after_H,50,0.9994002753664937,H(q0)
+after_CNOT,350,0.9854827879426983,"CNOT(q0,q1)"
