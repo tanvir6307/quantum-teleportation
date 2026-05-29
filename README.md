@@ -137,13 +137,19 @@ Executes the teleportation protocol on `ibm_torino` (133-qubit Heron r2) with st
 If you use this code in your research, please cite:
 
 ```bibtex
-@article{Hassan2026,
-  title   = {Predicting Quantum Teleportation Fidelity on Noisy Hardware
-             with Multi-Channel Noise Modeling and Experimental Validation},
-  author  = {Hassan, Tanvir and Ronggon, Asif Akhtab and Ghose, Pranon
-             and Nurnobi, A K M and Jim, Nur Mohammod and Datta, Aparajita},
-  year    = {2026},
-  note    = {Submitted}
+@article{tanvir2026teleportation,
+    author = {Hassan, Tanvir and Ronggon, Asif Akhtab and Ghose, Pranon and Nurnobi, A. K. M. and Jim, Nur Mohammod and Datta, Aparajita},
+    title = {Predicting quantum teleportation fidelity on noisy hardware with multi-channel noise modeling and experimental validation},
+    journal = {APL Quantum},
+    volume = {3},
+    number = {2},
+    pages = {026111},
+    year = {2026},
+    month = {05},
+    issn = {2835-0103},
+    doi = {10.1063/5.0332767},
+    url = {https://doi.org/10.1063/5.0332767},
+    eprint = {https://pubs.aip.org/aip/apq/article-pdf/doi/10.1063/5.0332767/21020175/026111_1_5.0332767.pdf},
 }
 ```
 
